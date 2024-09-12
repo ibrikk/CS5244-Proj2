@@ -48,6 +48,35 @@ header {
   font-family: var(--title-font-family);
 }
 
+.shopping-bag {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #e4e4e4;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.shopping-bag i {
+  color: #6a00ff; /* Color for the shopping bag icon */
+  font-size: 30px; /* Adjust the size to fit your design */
+}
+
+.badge {
+  position: absolute;
+  top: 3px;
+  background-color: #ff3b2f;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
 /* font-weight: 300; */
 
 /* @media (max-width: 600px) {
