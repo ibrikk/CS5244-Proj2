@@ -195,11 +195,7 @@ nav {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-  background-color: var(--secondary-background-color);
-  padding: 20px;
-  text-align: center;
-}
+
 
 /* RESPONSIVE DESIGN
 @media (max-width: 768px) {

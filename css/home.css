@@ -217,23 +217,14 @@
   text-align: center;
 }
 
-/* Media query for screen sizes between 1000px and 1160px */
-@media (min-width: 1000px) and (max-width: 1160px) {
-  .card {
-    grid-column: span 3;
-  }
-}
-
 .book-image-read-btn-container {
   display: flex;
   justify-content: center;
-
 }
 
 .book-image {
   max-height: 200px;
   object-fit: contain;
-  margin-right: 5px;
 }
 
 .view-btn {
@@ -248,10 +239,12 @@
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 0;
+  position: absolute;
+  z-index: 1;
 }
 
 .view-btn:hover {
-  background-color: #fb8c00; /* Darker orange on hover */
+  background-color: #fb8c00;
 }
 
 .view-icon {
@@ -273,5 +266,5 @@
 }
 
 .price-add > .sign-in-btn {
-  margin-top:5px;
+  margin-top: 5px;
 }

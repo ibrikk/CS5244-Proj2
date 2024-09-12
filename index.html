@@ -14,12 +14,12 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <!-- Add Font Awesome -->
     <!-- Double check this link --> 
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet"
-    />
+    <head>
+      <!-- Font Awesome CDN Link -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    </head>
+    
     <!-- Add Lucide Icons CDN -->
     <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
 
@@ -108,7 +108,7 @@
         </div>
         <section class="homepage-card-section grid grid-full">
           <h3 class="homepage-category-name grid-2">New Releases</h3>
-          <div class="cards-container grid grid-full red">
+          <div class="cards-container grid grid-full">
             <!-- Card -->
             <div class="card">
               <div class="book-image-read-btn-container">
@@ -208,76 +208,125 @@
             <!-- Card -->
           </div>
         </section>
-      <!-- <div class="home-page">
-          <section class="welcome-text flow-content container dark-background">
-            <h2>Welcome to Another Bookstore</h2>
-            <p>
-              Another Bookstore is a client-side application written in HTML and
-              CSS.
-            </p>
-            <p>
-              It includes a home page and a category page. Both pages have the
-              same header and footer.
-            </p>
-            <p>
-              You can navigate to the category page by choosing any category
-              from the dropdown menu in the header. You can navigate to the home
-              page by clicking on the logo in the header.
-            </p>
-            <p>Take some time and explore the code.</p>
-          </section>
-          <section class="category-images container">
-            <div class="category-image-items">
-              <a>
-                <img
-                  src="images/categories/classics.jpg"
-                  alt="Classics category"
-                  width="180px"
-                  height="180px"
-                />
-                <div>Classics</div>
-              </a>
-              <a>
-                <img
-                  src="images/categories/fantasy.jpg"
-                  alt="Fantasy category"
-                  width="180px"
-                  height="180px"
-                />
-                <div>Fantasy</div>
-              </a>
-              <a>
-                <img
-                  src="images/categories/mystery.jpg"
-                  alt="Mystery category"
-                  width="180px"
-                  height="180px"
-                />
-                <div>Mystery</div>
-              </a>
-              <a>
-                <img
-                  src="images/categories/romance.jpg"
-                  alt="Romance category"
-                  width="180px"
-                  height="180px"
-                />
-                <div>Romance</div>
-              </a>
+        <div class="homepage-card-section grid grid-full"></section>
+          <h3 class="homepage-category-name grid-2">For you</h3>
+          <div class="cards-container grid grid-full">
+            <!-- Card -->
+            <div class="card">
+              <div class="book-image-read-btn-container">
+                <img src="/images/books/Assassins blade.jpg" class="book-image" />
+                <button class="view-btn">
+                  <i data-lucide="view" class="view-icon" /></i>
+                </button>
+              </div>
+              <div class="year-author">
+                <p>1984</p>
+                <p>George Orwell</p>
+              </div>
+              <div class="price-add">
+                <p>$23.50</p>
+                <button class="sign-in-btn">Add to cart</button>
+              </div>
             </div>
-          </section>
-        </div> -->
-      <!-- <footer class="container">
-          <section class="links">
-            <a href="index.html">about</a>
-            <a href="index.html">contact</a>
-            <a href="index.html">directions</a>
-          </section>
+            <!-- Card -->
+            <div class="card">
+              <div class="book-image-read-btn-container">
+                <img src="/images/books/Assassins blade.jpg" class="book-image" />
+                <button class="view-btn">
+                  <i data-lucide="view" class="view-icon" /></i>
+                </button>
+              </div>
+              <div class="year-author">
+                <p>1984</p>
+                <p>George Orwell</p>
+              </div>
+              <div class="price-add">
+                <p>$23.50</p>
+                <button class="sign-in-btn">Add to cart</button>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="card">
+              <div class="book-image-read-btn-container">
+                <img src="/images/books/Assassins blade.jpg" class="book-image" />
+              </div>
+              <div class="year-author">
+                <p>1984</p>
+                <p>George Orwell</p>
+              </div>
+              <div class="price-add">
+                <p>$23.50</p>
+                <button class="sign-in-btn">Add to cart</button>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="card">
+              <div class="book-image-read-btn-container">
+                <img src="/images/books/Assassins blade.jpg" class="book-image" />
+                <button class="view-btn">
+                  <i data-lucide="view" class="view-icon" /></i>
+                </button>
+              </div>
+              <div class="year-author">
+                <p>1984</p>
+                <p>George Orwell</p>
+              </div>
+              <div class="price-add">
+                <p>$23.50</p>
+                <button class="sign-in-btn">Add to cart</button>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="card">
+              <div class="book-image-read-btn-container">
+                <img src="/images/books/Assassins blade.jpg" class="book-image" />
+              </div>
+              <div class="year-author">
+                <p>1984</p>
+                <p>George Orwell</p>
+              </div>
+              <div class="price-add">
+                <p>$23.50</p>
+                <button class="sign-in-btn">Add to cart</button>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="card">
+              <div class="book-image-read-btn-container">
+                <img src="/images/books/Assassins blade.jpg" class="book-image" />
+                <button class="view-btn">
+                  <i data-lucide="view" class="view-icon" /></i>
+                </button>
+              </div>
+              <div class="year-author">
+                <p>1984</p>
+                <p>George Orwell</p>
+              </div>
+              <div class="price-add">
+                <p>$23.50</p>
+                <button class="sign-in-btn">Add to cart</button>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+        </div>
+      <footer class="grid-full">
+            <a href="index.html">
+                <span class="material-symbols-outlined logo">
+                book_5
+                </span> 
+            </a>
+            <p>
+              ©2024  Ibo.ok inc. All Rights Reserved 
+            </p>
+            
           <section class="social-media-icons">
-            <a class="button">Facebook</a>
-            <a class="button">Twitter</a>
+            <a href="index.html"><i data-lucide="mail" /></i></a>
+            <a href="index.html"><i data-lucide="map-pin" /></i></a>
+            <a href="index.html"><i data-lucide="facebook" /></i></a>
+            <a href="index.html" class="x-twitter-icon"><i class="fa-brands fa-x-twitter"></i></a>
           </section>
-        </footer> -->
+        </footer>
     </main>
     <!-- Icon -->
     <script>
