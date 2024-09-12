@@ -200,11 +200,12 @@
 }
 
 .cards-container {
-  display: flex;
+  /* display: flex; */
   gap: 20px;
 }
 
 .card {
+  grid-column: span 2;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -216,16 +217,23 @@
   text-align: center;
 }
 
+/* Media query for screen sizes between 1000px and 1160px */
+@media (min-width: 1000px) and (max-width: 1160px) {
+  .card {
+    grid-column: span 3;
+  }
+}
+
 .book-image-read-btn-container {
   display: flex;
-  justify-content: space-between;
-  gap: 5px;
+  justify-content: center;
+
 }
 
 .book-image {
   max-height: 200px;
-  object-fit: cover;
-  width: 100%;
+  object-fit: contain;
+  margin-right: 5px;
 }
 
 .view-btn {
