@@ -101,8 +101,15 @@
 }
 
 .search-bar {
+  grid-column: span 4;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1105px) and (min-width: 1000px) {
+  .search-bar {
+    grid-column: span 5;
+  }
 }
 
 .search-input {
