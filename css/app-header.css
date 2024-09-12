@@ -28,11 +28,11 @@ header {
 
 .sign-in-btn {
   background-color: var(--primary-color);
-  font-family: Arial, sans-serif;
   color: white;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+  font-weight: 10;
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);

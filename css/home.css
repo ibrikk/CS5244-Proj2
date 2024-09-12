@@ -162,7 +162,7 @@
 }
 
 .hero-content h1 {
-  font-size: 3rem; /* Adjust heading size */
+  font-size: 3rem;
   font-weight: bold;
   margin: 0;
 }
@@ -187,4 +187,83 @@
 
 .cta-text {
   font-weight: lighter;
+}
+
+.homepage-card-section {
+  padding: 20px;
+}
+
+.homepage-category-name {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+}
+
+.book-image-read-btn-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.book-image {
+  max-height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.view-btn {
+  width: 32px;
+  height: 32px;
+  background-color: #f5a524;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.view-btn:hover {
+  background-color: #fb8c00; /* Darker orange on hover */
+}
+
+.view-icon {
+  color: white; /* White color for the icon */
+  font-size: 20px; /* Adjust icon size */
+}
+
+.year-author {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.price-add {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.price-add > .sign-in-btn {
+  margin-top:5px;
 }
