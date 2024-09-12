@@ -134,7 +134,7 @@ nav {
   border-radius: 12px;
 }
 
-/* .search-bar button {
+.search-bar button {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   border-left: none;
@@ -146,7 +146,7 @@ nav {
 .nav-links {
   display: flex;
   gap: 20px;
-} */
+}
 
 /* DEV ONLY */
 .red {
