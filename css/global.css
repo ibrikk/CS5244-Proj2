@@ -106,6 +106,9 @@ textarea {
   color: var(--primary-background-color);
 }
 
+.pr-5 {
+  padding-right: 5px;
+}
 /* LAYOUT */
 body {
   background: var(--primary-background-color);
@@ -130,8 +133,6 @@ nav {
   border: 1px solid #ccc;
   border-radius: 12px;
 }
-
-
 
 /* .search-bar button {
   background-color: #f0f0f0;
