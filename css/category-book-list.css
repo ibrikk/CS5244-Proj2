@@ -4,6 +4,7 @@
 
 .book-author {
   font-style: italic;
+  text-align: start;
 }
 
 .cards-container {

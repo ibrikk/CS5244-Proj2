@@ -71,6 +71,13 @@
   font-size: 14px;
   cursor: pointer;
   padding-top: 7px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.category-link:hover {
+  background-color: #f0f0f0; 
+  color: var(--hover-text-color);
+  border-color: #d4d4d4; 
 }
 
 .homepage {
