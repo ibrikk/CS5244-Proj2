@@ -4,6 +4,28 @@ header {
   align-items: center;
 }
 
+.signed-in-image-container {
+  display:flex;
+  justify-content: space-between;
+}
+
+.profilr-pic {
+  object-fit: cover;
+}
+
+.name-email-container {
+  margin-left: 10px;
+}
+
+.user-name {
+  font-size: 14px;
+}
+
+.user-email {
+  font-size: 14px;
+  color: #2B6FEE;
+}
+
 .text-logo {
   font-size: 24px;
   font-weight: 800;
