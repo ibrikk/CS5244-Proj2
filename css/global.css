@@ -139,7 +139,6 @@ nav {
   gap: 20px;
 }
 
-
 .non-break {
   white-space: nowrap;
   overflow: hidden;
@@ -147,4 +146,5 @@ nav {
   width: 100%;
   display: block;
   text-align: start;
+  font-weight: bold;
 }
