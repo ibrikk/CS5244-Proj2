@@ -9,10 +9,6 @@ header {
   justify-content: space-between;
 }
 
-.profilr-pic {
-  object-fit: cover;
-}
-
 .name-email-container {
   margin-left: 10px;
 }
