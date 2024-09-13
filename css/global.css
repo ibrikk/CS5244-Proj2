@@ -139,51 +139,6 @@ nav {
   gap: 20px;
 }
 
-/* DEV ONLY */
-.red {
-  background: red;
-}
-
-.blue {
-  background: blue;
-}
-
-.green {
-  background: green;
-}
-
-/* DEV ONLY */
-
-.banner {
-  background-image: url('https://via.placeholder.com/1200x300/ff5722/ffffff');
-  background-size: cover;
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.banner h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
-.new-releases {
-  padding: 20px 0;
-}
-
-.books {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 20px;
-}
-
-.book {
-  background-color: var(--card-background-color);
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
 .non-break {
   white-space: nowrap;
@@ -193,37 +148,3 @@ nav {
   display: block;
   text-align: start;
 }
-
-/* RESPONSIVE DESIGN
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: repeat(6, 1fr);
-  }
-
-  .books {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .book {
-    grid-column: span 2;
-  }
-}
-
-@media (max-width: 480px) {
-  .grid-container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .books {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .book {
-    grid-column: span 2;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
-  }
-} */

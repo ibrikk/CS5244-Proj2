@@ -40,7 +40,6 @@ header {
 }
 
 .logo-container {
-  /* background: blue; */
   width: 100px;
   display: flex;
   align-items: center;
@@ -60,8 +59,8 @@ header {
 }
 
 .shopping-bag i {
-  color: #6a00ff; /* Color for the shopping bag icon */
-  font-size: 30px; /* Adjust the size to fit your design */
+  color: #6a00ff;
+  font-size: 30px;
 }
 
 .badge {
@@ -75,11 +74,3 @@ header {
   font-weight: bold;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-
-/* font-weight: 300; */
-
-/* @media (max-width: 600px) {
-  header {
-    flex-direction: column;
-  }
-} */
