@@ -186,11 +186,12 @@ nav {
 }
 
 .non-break {
-  white-space: nowrap; /* Prevents text from wrapping to the next line */
-  overflow: hidden; /* Hides any overflowing content */
-  text-overflow: ellipsis; /* Displays ellipsis (...) for overflowing content */
-  width: 100%; /* Ensure the container has a fixed width */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
   display: block;
+  text-align: start;
 }
 
 /* RESPONSIVE DESIGN
