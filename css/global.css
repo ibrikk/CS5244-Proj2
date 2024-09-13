@@ -185,6 +185,14 @@ nav {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.non-break {
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
+  overflow: hidden; /* Hides any overflowing content */
+  text-overflow: ellipsis; /* Displays ellipsis (...) for overflowing content */
+  width: 100%; /* Ensure the container has a fixed width */
+  display: block;
+}
+
 /* RESPONSIVE DESIGN
 @media (max-width: 768px) {
   .grid-container {
